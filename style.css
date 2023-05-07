@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-size: 3rem;
+    width: 48%;
+}
+
+p,
+ul {
+    font-family: 'Open Sans';
+    width: 48%;
+}
+
+li::marker {
+    color: purple;
+    font-size: 1rem;
+}
+.container-fluid {
+    margin: 2rem 0;
+}
+
+.container-fluid,
+.modal-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+input {
+    position: relative;
+    left: 1rem;
+    width: 40rem;
+    height: 3rem;
+    padding: 1rem;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #E6E6FA;
+    background-color: #E6E6FA;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.search-icon {
+    position: relative;
+    right: 1.5rem;
+    color: indigo;
+}
+
+.heading {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    padding: 0;
+}
+
+.play-me {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.playBtn {
+    background-color: violet;
+    border: 1px solid violet;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.phonetic {
+    color: violet;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.partOfSpeech {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+.meaning,
+.syn,
+.example {
+    color: grey;
+}
+
+.synonyms {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 1rem;
+    width: 50%;
+}
+
+.inline-syn {
+    color: hotpink;
+    font-weight: bold;
+}
